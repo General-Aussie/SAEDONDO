@@ -1,0 +1,46 @@
+.carousel-ctr {
+    position: relative;
+}
+
+#prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold
+}
+
+#next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold
+}
+
+.carousel-slide {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.carousel-slide .slide {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
