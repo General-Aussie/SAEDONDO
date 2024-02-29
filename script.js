@@ -5,3 +5,7 @@ const slide = document.querySelector(".carousel-slide");
 let counter = 0;
 
 next.addEventListener('click', ()=>)
+
+goForward(){
+    
+}
